@@ -1,15 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;700&display=swap');
 
 :root {
-    --primary: #8c38ff;
+    --primary: #F39C12;
     --light: #EEEEEE;
-    --dark: #212121;
+    --dark: #2a2f43;
+    ;
 }
 
 body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
+    background-color: var(--dark);
 }
 
 .logo {
@@ -85,7 +88,13 @@ main {
 .about-container{
     display: flex;
     justify-content: space-between;
-    padding: 32px;
+    padding:24px;
+    margin: 8px 20px;
+
+    background-color: white;
+    border: 1px solid lightgray;
+    border-radius: 24px;
+    /*box-shadow: 10px 10px 10px lightgray;*/
 
     gap: 20px
 }

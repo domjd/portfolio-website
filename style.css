@@ -4,7 +4,6 @@
     --primary: #F39C12;
     --light: #EEEEEE;
     --dark: #2a2f43;
-    ;
 }
 
 body {
@@ -137,6 +136,24 @@ main {
 
 #qualifications {
     width: 50%;
+}
+
+.colour-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px; 
+    height: 80px; 
+    position: fixed; 
+    right: 0; 
+    top: 200px;
+
+    color: var(--dark);
+    font-size: 48px;
+    
+    border-radius: 12px;
+
+    border: 1px solid var(--dark);
 }
 
 @media only screen and (max-width: 800px){

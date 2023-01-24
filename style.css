@@ -12,6 +12,7 @@ body {
     box-sizing: border-box;
 
     background-color: var(--dark);
+    font-family: 'Rubik', sans-serif;
 }
 
 .logo {
@@ -163,6 +164,7 @@ input:focus, textarea:focus{
 
 #form-button{
     height: 40px;
+    width: 200px;
     margin: auto;
 }
 
@@ -200,6 +202,22 @@ textarea {
     border-radius: 12px;
 
     border: 1px solid var(--dark);
+}
+
+footer {
+    position: relative; 
+    top: 180px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-top: 3px solid var(--primary);
+}
+
+footer h4{
+    color: white;
+    font-weight: 100;
 }
 
 @media only screen and (max-width: 800px){

@@ -1,7 +1,7 @@
 let root = document.querySelector(':root');
 
 const colourArray = ["#F39C12", "#2ECC71", "#9B59B6", "#3498DB", "#E74C3C"];
-let colourIndex = 0;
+let colourIndex = 1;
 
 function changeColour(){
     if(colourIndex >= colourArray.length)

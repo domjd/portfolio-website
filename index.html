@@ -10,14 +10,17 @@
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
+    <button class ="colour-button" onclick="changeColour()">
+        <i class='bx bxs-palette'></i>
+    </button>
     <header>
         <nav>
             <div class="nav-container">
                 <span class="logo">Dom's Portfolio</span>
                 <div class="menu">
-                    <span><a href="#" class="active">Home</a></span>
-                    <span><a href="#">Portfolio</a></span>
-                    <span><a href="#">Contact</a></span>
+                    <span><a href="./index.html" class="active">Home</a></span>
+                    <span><a href="./portfolio.html">Portfolio</a></span>
+                    <span><a href="./contact.html">Contact</a></span>
                 </div>
 
                 <button class ="hamburger">
@@ -73,41 +76,11 @@
             </div>
         </div>
 
-        <div class="row">
-            <div class="container">
-                <div class="info">
-                    <h2>Portfolio Projects</h2>
-                    <p>So far just this website and other codecademt projects. More to come</p>
-                </div>
-            </div>
-    
-            <div class="container section">
-                <div class="form-container">
-                    <h2>Contact Me</h2>
-                    <form>
-                        <label for="name">Name</label><br>
-                        <input type="text" id="name" name="name">
-                        <br>
-                        <label for="email">Email</label><br>
-                        <input type="email" id="email" name="email">
-                        <br>
-                        <label for="message">Message</label><br>
-                        <textarea id="message" name="message" rows="4" cols="50"></textarea>
-                        <br>
-                        <input id="form-button" type="submit" value="Submit">
-                    </form>
-                </div>
-            </div>
-        </div>
-
-
-
     </main>
 
-    
-    <button class ="colour-button" onclick="changeColour()">
-        <i class='bx bxs-palette'></i>
-    </button>
+    <footer>
+        <h4>Made with <i class='bx bxs-heart' style="color: red;"></i> By Dom</h4>
+    </footer>
     
 </body>
 </html>
